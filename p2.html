@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+<title>A01Palpandian</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="Sruthi.js"></script>
+
+<link href="A01Palpandian.css" type="text/css" rel="stylesheet"/>
+
+
+</head>
+
+<body background="http://i67.tinypic.com/k9j0g4.jpg">
+<div id="service"><h1> Services </h1></div>
+<div id="link"><ul> <li><a href="p1.html">About</a></li>
+<li><a href="p2.html">Pricing</a></li> 
+<li><a href="p3.html">Contact</a></li></ul></div>
+
+ 
+<div id="change"> You can check your approximate bill amount and can choose your prize range from below.<br>Contact us for more info on this by clicking the contact page </div> 
+<h2> Help us Serve you better: </h2>   
+
+<div id="i">
+<form method="get">
+
+<h4>Enter the 'approximate' number visiting ,<i>choose from below</i></h4>
+<form method="get">
+<input type="radio" value="2" checked name="number" id="i1">2 
+<input type="radio" value="4" name="number" id="i2">4 
+<input type="radio" value="6" name="number" id="i3">6 
+<input type="radio" value="8" name="number" id="i4">8 <br>
+
+</form></div>
+
+
+
+<div id="k">
+<h4>Choose your price range(5% tax will be charged in total)</h4>
+<form method="get">
+<input type="radio" value="4" name="price" id="k1">Soldier
+<input type="radio" value="8" checked name="price" id="k2">Minister
+<input type="radio" value="12" name="price" id="k3">King<br><br>
+<input type="button" class="btn btn-primary" value="Submit" onclick="totalPrice()" name="submit" id="s" >
+</form>
+</div>
+
+<div id="range">
+    <h3> Note :The respective prices are as follows </h3>
+<ul>
+
+<li> Soldier:  4$ (per head)</li>
+<li> Minister: 8$ (per head)</li>
+<li> King: 12$ (per head) </li>
+</ul>
+</div>      
+
+
+
+
+<h3><i>Tada , here you go .... </i> </h3>
+<form method="post">
+
+Your approximate bill(dollars) <span id="r"> </span>
+</form>
+<footer><p><a href="p2.html">Back to top</a></p></footer>
+<script src="jquery-3.1.0.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--<script src="try4js.js"></script>-->
+</body>
+</html>
+

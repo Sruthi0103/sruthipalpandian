@@ -1,0 +1,30 @@
+
+h1
+{text-align:center;
+Color:maroon;
+}
+h2
+{color:maroon;}
+h3
+{color:maroon;}
+h4
+{color:blue;}
+h5
+{color:red;}
+#points
+{ color:white;}
+body
+{color:white;font-size:20px;background-color:black;}
+#link
+{width:1500px;font-size:20px;height:40px;background-color:white;}
+#link li{display:inline;padding:30px;}
+#icons ul li{display:inline;float:left;}
+#icons{float:left;}
+.form{color:white;}
+.menu{color:white;font-size:20px;}
+#change{color:white;font-size:20px;}
+#head{color:red;font-size:30px;}
+#try{color:blue;}
+table tr{border:3px;}
+
+
